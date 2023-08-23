@@ -1,0 +1,163 @@
+.form_dialog {
+    background: url("../../../public/rsvp_card_background.jpg") no-repeat center;
+    padding-bottom: 7px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-size: cover;
+    flex: auto;
+    flex-flow: row;
+}
+
+.form_dialog > .MuiDialogContent-root {
+    display: inline-flex;
+}
+
+
+.navigation-bar {
+    display: flex;
+    overflow-x: auto;
+}
+
+.info_text {
+    margin-top:10px !important;
+    font-family: 'Satisfy', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.form_dialog-accepted {
+    margin-left: 15px;
+    padding-left: 10px;
+}
+
+.form_dialog-accepted-label>.MuiTypography-root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.form_dialog-maincourse {
+    margin-left: 10% !important;
+    margin-top: 10px !important;
+    padding-top: 10px !important;
+}
+
+.form_dialog-maincourse>.MuiFormGroup-row {
+    margin-left: 10px;
+}
+
+.form_dialog-maincourse>.MuiFormGroup-root>.MuiFormControlLabel-root>.MuiTypography-root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.form_dialog-other>.MuiFormLabel-root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.form_dialog-other {
+    position: relative;
+    margin-left: 40px;
+    padding-right:20px;
+    width:65%;
+
+}
+
+.form_dialog-dietary-restrictions {
+    margin-left: 10% !important;
+    margin-top: 10px;
+    flex-basis: min-content;
+}
+
+.form_dialog-dietary-restrictions>.MuiFormControlLabel-root>.MuiTypography-root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#form_dialog-dietary-restrictions-title {
+    margin: 0;
+    font-family: 'Segoe UI', 'Segoe UI', Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.form_dialog-maincourse>.form_dialog-maincourse-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.css-yiavyu-MuiBackdrop-root-MuiDialog-backdrop {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.MuiDialogContent-root {
+    display: flex;
+}
+
+.form_dialog-name-title {
+    margin-left:25% !important;
+}
+
+.form_dialog-prev {
+    left: 0 !important;
+    bottom: 14px !important;
+    position: absolute !important;
+    height: 50px;
+    margin-left: 24px !important;
+    font-size: 16px;
+}
+
+.form_dialog-next {
+    bottom: 14px !important;
+    position: absolute !important;
+    height: 50px;
+    font-size: 16px;
+}
+
+.form_dialog-title {
+    font-family: 'Satisfy', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-style: italic;
+    font-weight: 200;
+    margin-left: 10px;
+    color: rgb(56, 159, 56);
+}
+
+.form_dialog-title-main {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.MuiDialogTitle-root {
+    padding-top: 0px !important;
+}
+
+.form_dialog-submit {
+    position: absolute !important;
+    right: 0 !important;
+    height: 50px;
+    margin-right: 24px !important;
+    bottom: 14px !important;
+    font-size: 16px;
+}
+
+.MuiContainer-root {
+    background: url("../../../public/rsvp_card_background.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.gifting_content {
+    flex-direction: column;
+}
+#gifting_text-details {
+    margin-top: 5px;
+    text-align: center;
+}

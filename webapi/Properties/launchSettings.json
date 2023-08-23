@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": false,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:59882",
+      "sslPort": 44390
+    }
+  },
+  "profiles": {
+    "webapi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DATABASE_NAME": "rsvp-db",
+        "GUESTS_COLLECTION_NAME": "guests"
+      },
+      "applicationUrl": "https://localhost:7273;http://localhost:5273",
+      "dotnetRunMessages": true
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DATABASE_NAME": "rsvp-db",
+        "GUESTS_COLLECTION_NAME": "guests"
+      }
+    }
+  }
+}

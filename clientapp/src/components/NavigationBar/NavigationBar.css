@@ -1,0 +1,7 @@
+.navigation_bar-buttons {
+    font-weight: bold !important;
+}
+
+.navigation_bar > .MuiContainer-root > .MuiToolbar-root {
+    box-shadow: 0 3px 4px -2px gray;
+}

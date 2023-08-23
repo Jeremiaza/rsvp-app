@@ -1,0 +1,29 @@
+#location_marker-text {
+    font-size: medium;
+    font-weight: 500;
+}
+
+@media (max-width: 500px) {
+    #wedding_location {
+        height: 450px;
+        width: 300px;
+        box-shadow: 2px 2px 4px grey;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    #wedding_location {
+        height: 450px;
+        width: 900px;
+        box-shadow: 2px 2px 4px grey;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 500px) {
+    #wedding_location {
+        height: 450px;
+        width: 480px;
+        box-shadow: 2px 2px 4px grey;
+    }
+}
